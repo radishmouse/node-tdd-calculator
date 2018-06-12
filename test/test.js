@@ -1,7 +1,14 @@
 const assert = require('assert');
-const maths = require('../index');
-const add = maths.add;
-const sub = maths.sub;
+
+// const maths = require('../index');
+// const add = maths.add;
+// const sub = maths.sub;
+
+// declare the add and sub variables
+// and assign them... in ONE STEP!!!!
+const { sub, add } = require('../index');
+// "object destructuring"
+
 
 describe('Subtracting numbers', () => {
   describe('simple subtraction', () => {
